@@ -1,0 +1,6 @@
+- name: Hello World Sample PRJ03
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!!!!! ...is that  ok  prj03 ??"
